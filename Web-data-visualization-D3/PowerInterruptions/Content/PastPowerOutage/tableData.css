@@ -1,0 +1,60 @@
+﻿#tableData {
+    border: rgb(253, 254, 255) solid 1.5px;
+    border-radius: 3px;
+}
+
+.title {
+    font-weight: bolder;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.basic {
+    padding: 5px 0;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+.basic:nth-child(4n+1) {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.basic:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#tableData div > div > span {
+    margin-left: -100%;
+    margin-right: -100%;
+}
+
+.loadFailed {
+    cursor: pointer;
+}
+
+    .loadFailed:hover {
+        background: rgba(255, 255, 255, 0.2);
+    }
+
+.detail {
+    height: 0;
+    margin: 0 8px;
+    border: rgba(253, 254, 255, 0.5) solid;
+    border-width: 0;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    overflow: hidden;
+    transition-duration: 0.5s;
+    transition-delay: 0.25s;
+    transition-property: all;
+}
+
+.detail i {
+    margin-right: 3px;
+    width: 15px;
+    text-align: center;
+}
+
+#tableData .loadFailed {
+    display: none;
+}

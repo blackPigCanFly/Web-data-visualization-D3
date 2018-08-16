@@ -1,0 +1,16 @@
+﻿.background {
+    background-color: black;
+    padding-bottom: initial;
+}
+
+.background::after {
+    content: " ";
+    display: block; 
+    height: 0; 
+    clear: both;
+}
+
+.background > div {
+    width: calc(50% - 5px);
+    margin: 10px 0;
+}

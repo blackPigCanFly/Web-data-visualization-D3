@@ -1,0 +1,68 @@
+﻿.thirdPartyBar {
+    background: #F44336;
+}
+
+.digEventBar {
+    background: #E91E63;
+}
+
+.environmentBar {
+    background: #9C27B0;
+}
+
+.lightningBar {
+    background: #3F51B5;
+}
+
+.operationalBar {
+    background: #009688;
+}
+
+.customerEventBar {
+    background: #8BC34A;
+}
+
+.vandalismBar {
+    background: #FF9800;
+}
+
+.equipmentBar {
+    background: #FF5722;
+}
+
+.directedBar {
+    background: #795548;
+}
+
+.legend {
+    display: none;
+    font-size: 10px;
+    margin-top: 25px;
+}
+
+    .legend > .col-md-12 {
+        padding-right: initial;
+        text-align: right;
+    }
+
+    .legend span {
+        vertical-align: middle;
+    }
+
+        /* color blocks */
+        .legend span[class] {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            margin-left: 3px;
+        }
+
+        .aboveGraph {
+            display: none;
+            padding-left: 5px;
+            margin-bottom: 0 !important;
+        }
+
+    .aboveGraph button {
+        font-size: 10px;
+    }
